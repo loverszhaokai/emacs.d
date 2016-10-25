@@ -85,4 +85,10 @@
       (browse-url (concat "file://" file-name)))))
 
 
+;; Show line number
+(global-linum-mode 1)
+(setq linum-format "%4d ")
+
+
+
 (provide 'init-utils)

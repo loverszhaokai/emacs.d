@@ -70,7 +70,8 @@
 (require 'init-hippie-expand)
 (require 'init-company)
 (require 'init-windows)
-(require 'init-sessions)
+;;Since there is desktop conflicts when open more than one emacs
+;;(require 'init-sessions)
 (require 'init-fonts)
 (require 'init-mmm)
 
