@@ -53,7 +53,7 @@
 (require 'init-xterm)
 (require 'init-themes)
 (require 'init-osx-keys)
-(require 'init-gui-frames)
+;;(require 'init-gui-frames)
 (require 'init-dired)
 (require 'init-isearch)
 (require 'init-grep)
@@ -65,8 +65,9 @@
 (require 'init-smex)
 ;; If you really prefer ido to ivy, change the comments below. I will
 ;; likely remove the ido config in due course, though.
-;; (require 'init-ido)
+;;(require 'init-ido)
 (require 'init-ivy)
+(require 'init-helm)
 (require 'init-hippie-expand)
 (require 'init-company)
 (require 'init-windows)
