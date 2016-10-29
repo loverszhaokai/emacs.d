@@ -44,6 +44,17 @@
     (add-hook 'company-completion-finished-hook 'sanityinc/page-break-lines-maybe-reenable)
     (add-hook 'company-completion-cancelled-hook 'sanityinc/page-break-lines-maybe-reenable)))
 
+;; For golang
+(add-to-list 'load-path "~/.emacs.d/site-lisp/go-mode.el-master/")
+(require 'go-mode-autoloads)
+(require 'company-go)
+(setq company-tooltip-limit 20)                      ; bigger popup window
+(setq company-echo-delay 0)                          ; remove annoying blinking
+(setq company-begin-commands '(self-insert-command)) ; start autocompletion only after typing
+
+(add-hook 'go-mode-hook (lambda ()
+                          (set (make-local-variable 'company-backends) '(company-go))
+                          (company-mode)))
 
 
 (provide 'init-company)

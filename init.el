@@ -95,6 +95,7 @@
 (require 'init-markdown)
 (require 'init-csv)
 (require 'init-cpp)
+(require 'init-go)
 (require 'init-erlang)
 (require 'init-javascript)
 (require 'init-php)
