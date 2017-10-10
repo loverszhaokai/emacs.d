@@ -31,4 +31,9 @@
   (local-set-key (kbd "M-.") 'godef-jump))
 (add-hook 'go-mode-hook 'my-go-mode-hook)
 
+(require 'ggtags)
+(add-hook 'go-mode-hook (lambda ()
+                          (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
+                            (ggtags-mode 1))))
+
 (provide 'init-go)
