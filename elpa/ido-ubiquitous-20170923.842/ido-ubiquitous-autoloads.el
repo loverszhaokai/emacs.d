@@ -1,10 +1,10 @@
-;;; findr-autoloads.el --- automatically extracted autoloads
+;;; ido-ubiquitous-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("findr-pkg.el" "findr.el") (23105 46591
-;;;;;;  881463 698000))
+;;;### (autoloads nil nil ("ido-ubiquitous.el") (23105 47024 970868
+;;;;;;  149000))
 
 ;;;***
 
@@ -13,4 +13,4 @@
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
 ;; End:
-;;; findr-autoloads.el ends here
+;;; ido-ubiquitous-autoloads.el ends here

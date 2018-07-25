@@ -1,10 +1,9 @@
-;;; findr-autoloads.el --- automatically extracted autoloads
+;;; memoize-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("findr-pkg.el" "findr.el") (23105 46591
-;;;;;;  881463 698000))
+;;;### (autoloads nil nil ("memoize.el") (23105 46968 813677 162000))
 
 ;;;***
 
@@ -13,4 +12,4 @@
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
 ;; End:
-;;; findr-autoloads.el ends here
+;;; memoize-autoloads.el ends here

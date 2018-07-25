@@ -59,7 +59,7 @@
 (require 'init-grep)
 (require 'init-uniquify)
 (require 'init-ibuffer)
-(require 'init-flycheck)
+;;(require 'init-flycheck)
 
 (require 'init-recentf)
 (require 'init-smex)
@@ -88,7 +88,7 @@
 (require 'init-github)
 
 (require 'init-projectile)
-
+;;;
 (require 'init-compile)
 (require 'init-crontab)
 (require 'init-textile)
@@ -171,7 +171,7 @@
 
 (add-hook 'after-init-hook
           (lambda ()
-            (message "Hello zhaokai, init completed in %.2fms"
+            (message "Hello zhaokai, have a nice day! Init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
 (provide 'init)

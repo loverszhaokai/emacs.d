@@ -14,10 +14,10 @@
 
 (when window-system (set-exec-path-from-shell-PATH))
 
-(setenv "GOPATH" "/home/zhaokai/go")
+(setenv "GOPATH" "/zhaokai/go")
 
-(setq exec-path (cons "/usr/local/go1.6/bin" exec-path))
-(add-to-list 'exec-path "/usr/local/go1.6/bin")
+(setq exec-path (cons "/usr/local/go/bin" exec-path))
+(add-to-list 'exec-path "/usr/local/go/bin")
 (add-hook 'before-save-hook 'gofmt-before-save)
 
 (defun my-go-mode-hook ()
